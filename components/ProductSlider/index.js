@@ -31,8 +31,9 @@ function ProductSlider() {
       <Carousel
         responsive={responsive}
         swipeable={true}
-        removeArrowOnDeviceType={["tablet", "mobile"]}
         infinite
+        keyBoardControl={true}
+        slidesToSlide={1}
       >
         {CardItems.map((item, index) => (
           <div key={index} className="card">

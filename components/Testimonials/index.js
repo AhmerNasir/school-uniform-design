@@ -3,7 +3,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import useResponsiveWindow from "@/hooks/useResponsiveWindow";
 import Slider from "react-slick";
-import CardSlider from "../MobileSilder";
 import classNames from "classnames";
 import styles from './styles'
 
@@ -35,7 +34,7 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false, // Disable arrows
-  draggable: true, // Enable dragging/swiping
+  swipeToSlide: true,
 };
 
 const MobileSlider = ({ data }) => {

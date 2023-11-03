@@ -75,9 +75,10 @@ export default css`
     font-size: 28px;
     font-weight: 400;
   }
-  @media(max-width: 768px) {
+
+  @media (max-width: 768px) {
     .nav-wrapper {
-      padding: 20px;
+      padding: 10px 30px 30px 30px;
     }
     .social-icon {
       width: 20%;

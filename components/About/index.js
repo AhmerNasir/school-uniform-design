@@ -70,9 +70,9 @@ function About() {
         </div>
         <div className="our-company-container">
           <div className="our-product-wrapper">
-            <div className="divider" />
+            <div className="hr-line" />
             <h1>Company Values</h1>
-            <div className="divider" />
+            <div className="hr-line" />
           </div>
         </div>
         <div className="company-values-container">
@@ -107,9 +107,9 @@ function About() {
 <section className="contact-form">
         <div className="our-company-container">
           <div className="our-product-wrapper">
-            <div className="divider" />
+            <div className="hr-line" />
             <h1>Contact Us</h1>
-            <div className="divider" />
+            <div className="hr-line" />
           </div>
         </div>
         <ContactUs />

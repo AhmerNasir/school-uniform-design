@@ -47,7 +47,6 @@ function SizeGuide() {
   return (
     <BaseLayout changeHeader>
       <div className="main-container">
-        <FooterDropdownMenu />
         <div className="option-button-container">
           <button
             className={classNames("option-buttons", {
@@ -84,11 +83,11 @@ function SizeGuide() {
         </div>
         <UniformSizeTable />
         <UniformSizeTable trousersOptions />
-        <div className="our-company-container">
-          <div className="our-product-wrapper">
-            <div className="divider" />
+        <div className="measuring-container">
+          <div className="measuring-wrapper">
+            <div className="measuring-divider" />
             <h1>Measuring Tips</h1>
-            <div className="divider" />
+            <div className="measuring-divider" />
           </div>
         </div>
         <div className="tips-container">

@@ -73,4 +73,14 @@ export default css `
     margin-bottom: 30px;
   }
 
+  .footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards-container {
+    margin-left: 20px;
+  }
+
 `

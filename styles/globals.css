@@ -104,40 +104,6 @@ p {
   width: 32%;
 }
 
-.our-product-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.our-product-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.our-product-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.our-product-header > p {
-  color: #000;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 10px;
-  cursor: pointer;
-}
 
 .title {
   color: #fff;

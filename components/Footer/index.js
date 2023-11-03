@@ -2,6 +2,8 @@ import React from "react";
 import { AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 import { BiLogoFacebook } from "react-icons/bi";
 import styles from "./styles";
+import { IoIosArrowDown } from "react-icons/io";
+import Image from "next/image";
 
 function Footer() {
   return (
@@ -51,6 +53,52 @@ function Footer() {
             </div>
           </div>
           <div className="footer-divider" />
+          <div
+            style={{
+              margin: '20px 0',
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+            }}
+          >
+            <p>@2023 Company. All rights reserved</p>
+
+            <div className="footer-text">
+              <p>Canada (CAD $)</p>{" "}
+              <IoIosArrowDown
+                color="#fff"
+                style={{ width: "15px", height: "15px" }}
+              />
+            <div className="cards-container">
+              <Image
+                src="/static/images/visa-card.png"
+                alt="card-images"
+                width={30}
+                height={30}
+              />
+              <Image
+                src="/static/images/visa-card.png"
+                alt="card-images"
+                width={30}
+                height={30}
+              />
+              <Image
+                src="/static/images/visa-card.png"
+                alt="card-images"
+                width={30}
+                height={30}
+              />
+              <Image
+                src="/static/images/visa-card.png"
+                alt="card-images"
+                width={30}
+                height={30}
+              />
+            </div>
+            </div>
+            <div></div>
+
+          </div>
         </div>
       </div>
       <style jsx>{styles}</style>

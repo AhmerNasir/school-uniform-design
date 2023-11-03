@@ -120,6 +120,25 @@ export default css`
     font-size: 18px;
   }
 
+  .measuring-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .measuring-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .measuring-divider {
+    height: 1px;
+    background-color: #000;
+    width: 35%; 
+  }
+
   @media(max-width: 576px) {
     .main-container {
       padding: 0 4%;

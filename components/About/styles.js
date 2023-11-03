@@ -34,6 +34,8 @@ export default css`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px
   }
 
   .card-wrapper {
@@ -75,7 +77,6 @@ export default css`
 
   .company-values-container {
     display: flex;
-    align-items: center;
     width: 100%;
     margin-bottom: 80px;
   }
@@ -127,6 +128,26 @@ export default css`
     height: 335px;
     position: relative;
     margin-top: 20px;
+  }
+
+  .hr-line {
+    height: 1px;
+    background-color: #000;
+    width: 38%;
+  }
+  
+  .our-company-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .our-product-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
   }
 
   @media (max-width: 768px) {
